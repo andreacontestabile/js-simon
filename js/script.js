@@ -23,7 +23,7 @@ alert("Memorizza questi numeri: " + messaggioAlert);
 console.log(messaggioAlert);
 
 // 4. Creo un evento/funzione che viene eseguita dopo 30 secondi
-setTimeout(controlloNumeri , 5000);
+setTimeout(controlloNumeri , 30000);
 
 function controlloNumeri() {
   // Al suo interno, creo un array vuoto che conterrà i numeri chiesti all'utente
